@@ -1,0 +1,6 @@
+print("Welcome to the chat!")
+print("The chatbot will repeat what you say.")
+stuff_to_echo = input("Write something: ")
+print("You said: " + stuff_to_echo)
+user_name = input("What's your name: ")
+print("Nice to meet you, " + user_name + "!")
