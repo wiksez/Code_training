@@ -3,4 +3,5 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse("Welcome to the Vet's office!")
+    context = {"name": "Spot"}
+    return render(request, "vetoffice/home.html", context)
